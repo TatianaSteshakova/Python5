@@ -2,7 +2,7 @@ min = int(input("Введите мин. сумму инвестиций: "))
 mike = int(input("Сколько долларов у Майкла: "))
 ivan = int(input("Сколько долларов у Ивана: "))
 
-if (mike > min and ivan > min):
+if (mike >= min and ivan >= min):
     print(2)
 else: 
     if (mike > min):
